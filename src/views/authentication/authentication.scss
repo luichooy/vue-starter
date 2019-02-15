@@ -1,0 +1,58 @@
+$authentication-1-inner-max-width: 380px !default;
+
+.authentication-wrapper {
+  display: flex;
+  width: 100%;
+  flex-basis: 100%;
+  min-height: 100vh;
+
+  .authentication-inner {
+    width: 100%;
+  }
+
+  &.authentication-1 {
+    align-items: center;
+    justify-content: center;
+    background-image: url("../../assets/images/auth-bg.png");
+  }
+
+  &.authentication-1 .authentication-inner {
+    max-width: $authentication-1-inner-max-width;
+  }
+
+  &.authentication-2 {
+    align-items: stretch;
+    justify-content: stretch;
+
+    .bg-image {
+      background-image: url("../../assets/images/auth-bg.png");
+    }
+
+    .authentication-inner {
+      display: flex;
+      align-items: stretch;
+      flex-wrap: nowrap;
+      justify-content: stretch;
+    }
+  }
+}
+
+// IE 10-11 fix
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .authentication-wrapper:after {
+    content: '';
+    display: block;
+    flex: 0 0 0%;
+    min-height: inherit;
+    width: 0;
+    font-size: 0;
+  }
+}
+
+.auth-card {
+  border-radius: 20px;
+}
+
+.auth-card-footer {
+  border-color: rgba(24, 28, 33, .06);
+}

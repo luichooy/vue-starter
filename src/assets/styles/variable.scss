@@ -1,0 +1,35 @@
+$sidebarBgColor: #424f63;
+
+$white: #fff !default;
+$black: #181C21 !default;
+
+$gray-25: rgba($black, .015) !default;
+$gray-50: rgba($black, .03) !default;
+$gray-100: rgba($black, .06) !default;
+$gray-200: rgba($black, .1) !default;
+$gray-300: rgba($black, .2) !default;
+$gray-400: rgba($black, .3) !default;
+$gray-500: rgba($black, .4) !default;
+$gray-600: rgba($black, .5) !default;
+$gray-700: rgba($black, .6) !default;
+$gray-800: rgba($black, .8) !default;
+$gray-900: rgba($black, .9) !default;
+
+$tiny-font-size: 70% !default;
+$small-font-size: 85% !default;
+$big-font-size: 112% !default;
+$large-font-size: 150% !default;
+$xlarge-font-size: 170% !default;
+
+$text-muted: rgba-to-hex($gray-500) !default;
+$text-muted-hover: rgba-to-hex($gray-600) !default;
+$blockquote-small-color: rgba-to-hex($gray-500) !default;
+$text-light: rgba-to-hex($gray-400) !default;
+$text-lighter: rgba-to-hex($gray-300) !default;
+$text-lightest: rgba-to-hex($gray-200) !default;
+
+$font-weight-light: 300 !default;
+$font-weight-normal: 400 !default;
+$font-weight-bold: 600 !default;
+$font-weight-semibold: 500 !default;
+$font-weight-bolder: 900 !default;

@@ -1,0 +1,36 @@
+.topbar {
+  display: flex;
+  height: 100%;
+  align-items: center;
+
+  .topbar-brand {
+    display: inline-block;
+  }
+
+  .collapse-trigger {
+    color: #a3a4a6;
+    cursor: pointer;
+    transition: transform .3s ease-in-out;
+
+    &:hover {
+      color: #4E5155;
+    }
+  }
+
+  .topbar-nav {
+    display: flex;
+    height: 100%;
+    line-height: 66px;
+    justify-content: flex-end;
+    flex: auto;
+
+    .nav-item {
+      padding: 0 12px;
+      cursor: pointer;
+
+      &:hover {
+        background: rgba(0, 0, 0, .025);
+      }
+    }
+  }
+}
